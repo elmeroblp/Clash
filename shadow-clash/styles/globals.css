@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', monospace;
+  background-color: #000;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
