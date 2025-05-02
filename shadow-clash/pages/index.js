@@ -47,7 +47,7 @@ export default function Home() {
       }
     }, () => {
       setStatus('Permiso denegado');
-    });
+
               });
             }}
             className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition"
