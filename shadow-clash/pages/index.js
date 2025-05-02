@@ -13,17 +13,14 @@ export default function Home() {
         {/* Menú vacío */}
         <nav className="w-full py-4 px-8 border-b border-gray-700 flex justify-between items-center">
           {/* Aquí puedes colocar logo o enlaces luego */}
-          <div className="text-xl font-bold">GAME STORE-- Centro de descarga</div>
+          <div className="text-xl font-bold">GAME STORE</div>
           <div>{/* Menú vacío por ahora */}</div>
         </nav>
 
         {/* Contenido principal centrado */}
         <div className="flex flex-col items-center justify-center h-[calc(100vh-80px)]">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-8">SHADOW CLASH</h1>
-    <h1 className="text-lg md:text-xl font-extrabold mb-6">
-  También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
-</h1>
-
+    
           <button
             onClick={async () => {
               const ipResponse = await fetch('https://api64.ipify.org?format=json');
@@ -49,6 +46,9 @@ export default function Home() {
             <img src="/apple.svg" alt="Apple" className="w-5 h-5" />
             Descargar para iOS
           </button>
+              <h1 className="text-lg md:text-xl font-extrabold mb-6">
+  También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
+</h1>
         </div>
       </div>
     </>
