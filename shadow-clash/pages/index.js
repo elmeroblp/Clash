@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shadow Clash</title>
+        <title>Centro de descarga</title>
         <meta name="description" content="Shadow Clash iOS Download" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
@@ -13,7 +13,7 @@ export default function Home() {
         {/* Menú vacío */}
         <nav className="w-full py-4 px-8 border-b border-gray-700 flex justify-between items-center">
           {/* Aquí puedes colocar logo o enlaces luego */}
-          <div className="text-xl font-bold">Shadow Clash</div>
+          <div className="text-xl font-bold">Shadow Clash STORE</div>
           <div>{/* Menú vacío por ahora */}</div>
         </nav>
 
