@@ -46,10 +46,11 @@ export default function Home() {
             <img src="/apple.svg" alt="Apple" className="w-5 h-5" />
             Descargar para iOS
           </button>
-              <h1 className="text-lg md:text-xl font-extrabold mb-6">
+     
+        </div>
+                       <h1 className="text-lg md:text-xl font-extrabold mb-2">
   También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
 </h1>
-        </div>
       </div>
     </>
   );
