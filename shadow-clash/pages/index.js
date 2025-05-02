@@ -13,14 +13,16 @@ export default function Home() {
         {/* Menú vacío */}
         <nav className="w-full py-4 px-8 border-b border-gray-700 flex justify-between items-center">
           {/* Aquí puedes colocar logo o enlaces luego */}
-          <div className="text-xl font-bold">SHADOW CLASH GAME STORE</div>
+          <div className="text-xl font-bold">GAME STORE-- Centro de descarga</div>
           <div>{/* Menú vacío por ahora */}</div>
         </nav>
 
         {/* Contenido principal centrado */}
         <div className="flex flex-col items-center justify-center h-[calc(100vh-80px)]">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">Centro de descarga</h1>
-    <h1 className="text-3xl md:text-4xl font-extrabold mb-6">También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">SHADOW CLASH</h1>
+    <h1 className="text-lg md:text-xl font-extrabold mb-6">
+  También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
+</h1>
 
           <button
             onClick={async () => {
