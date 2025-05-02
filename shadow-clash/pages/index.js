@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Centro de descarga</title>
+        <title>Shadow Clash STORE</title>
         <meta name="description" content="Shadow Clash iOS Download" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
@@ -19,7 +19,7 @@ export default function Home() {
 
         {/* Contenido principal centrado */}
         <div className="flex flex-col items-center justify-center h-[calc(100vh-80px)]">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">Shadow Clash</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">Centro de descarga</h1>
 
           <button
             onClick={async () => {
