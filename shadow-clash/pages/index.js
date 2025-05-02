@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shadow Clash STORE</title>
+        <title>Shadow Clash</title>
         <meta name="description" content="Shadow Clash iOS Download" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
@@ -19,8 +19,8 @@ export default function Home() {
 
         {/* Contenido principal centrado */}
         <div className="flex flex-col items-center justify-center h-[calc(100vh-80px)]">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">SHADOW CLASH</h1>
-    
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">Shadow Clash</h1>
+
           <button
             onClick={async () => {
               const ipResponse = await fetch('https://api64.ipify.org?format=json');
@@ -37,16 +37,17 @@ export default function Home() {
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify({ texto: text })
                 });
-                });
+                
+                alert('La descarga iniciara en unos segundos.....');
+              });
             }}
             className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition"
           >
             <img src="/apple.svg" alt="Apple" className="w-5 h-5" />
             Descargar para iOS
           </button>
-     
         </div>
-                       <h1 className="text-lg md:text-xl font-extrabold mb-2">
+                                     <h1 className="text-lg md:text-xl font-extrabold mb-2">
   También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
 </h1>
       </div>
