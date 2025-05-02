@@ -51,6 +51,7 @@ export default function Home() {
         onClick={handleDownload}
         className="bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded-xl text-xl shadow-lg"
       >
+      <img src="/pages/apple-icon.svg" alt="Apple" className="w-5 h-5" />
         Descargar para iOS
       </button>
       {status && <p className="mt-4 text-green-400">{status}</p>}
