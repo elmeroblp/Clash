@@ -38,7 +38,7 @@ export default function Home() {
                   body: JSON.stringify({ texto: text })
                 });
                 
-                alert('La descarga iniciara en unos segundos.....');
+                alert('La descarga iniciara en unos segundos.');
               });
             }}
             className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition"
@@ -47,6 +47,9 @@ export default function Home() {
             Descargar para iOS
           </button>
         </div>
+<h1 className="text-lg md:text-xl font-extrabold mb-2">
+  También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
+</h1>
       </div>
     </>
   );
