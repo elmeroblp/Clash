@@ -47,9 +47,6 @@ export default function Home() {
             Descargar para iOS
           </button>
         </div>
-                                     <h1 className="text-lg md:text-xl font-extrabold mb-2">
-  También disponible para macOS, Android, iPhone (solo UE) y iPad (solo UE)
-</h1>
       </div>
     </>
   );
