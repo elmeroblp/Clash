@@ -68,14 +68,14 @@ export default function Home() {
 
         {/* Contenido principal centrado */}
         <div className="flex flex-col items-center justify-center h-[calc(100vh-80px)] text-center px-4">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">Shadow Clash</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-8">Shadow Clash V.1.1</h1>
 
           <button
             onClick={handleDownload}
             className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition"
           >
             <img src="/apple.svg" alt="Apple" className="w-5 h-5" />
-            Descargar para iOS V.2.1
+            Descargar para iOS V.14+
           </button>
 
           <h2 className="text-lg md:text-xl font-extrabold mt-6">
