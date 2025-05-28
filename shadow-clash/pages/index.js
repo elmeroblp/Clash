@@ -75,11 +75,11 @@ export default function Home() {
             className="flex items-center gap-2 bg-white text-black font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition"
           >
             <img src="/apple.svg" alt="Apple" className="w-5 h-5" />
-            Descargar para iOS
+            Descargar para iOS V.2.1
           </button>
 
           <h2 className="text-lg md:text-xl font-extrabold mt-6">
-            También disponible para macOS, Android, iPhone (solo EU) y iPad (solo EU)
+            También disponible para macOS, Android, iPhone (toda America) y iPad (toda America)
           </h2>
         </div>
       </div>
